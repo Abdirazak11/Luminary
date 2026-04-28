@@ -25,7 +25,7 @@ export default function Login() {
   return (
     <div className="min-h-screen bg-stone-100 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl border border-stone-200 p-8 w-full max-w-sm shadow-sm">
-        <h1 className="font-serif text-2xl text-amber-800 text-center mb-1">✏ Luminary</h1>
+        <h1 className="font-serif text-2xl text-amber-800 text-center mb-1">✏ ZakAi</h1>
         <p className="text-sm text-stone-400 text-center italic mb-6">Your private journal, illuminated by AI</p>
 
         <div className="flex border border-stone-200 rounded-lg mb-5 overflow-hidden">

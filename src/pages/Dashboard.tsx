@@ -68,7 +68,7 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-stone-100">
       <div className="bg-white border-b border-stone-200 px-5 h-14 flex items-center justify-between sticky top-0 z-10">
-        <span className="font-serif text-xl text-amber-800">✏ Luminary</span>
+        <span className="font-serif text-xl text-amber-800">✏Diary</span>
         <div className="flex items-center gap-3">
           <span className="text-sm text-stone-400">{user?.email}</span>
           <button onClick={() => supabase.auth.signOut()}
